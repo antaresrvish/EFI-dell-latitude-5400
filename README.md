@@ -26,6 +26,7 @@ This repository contains EFI files for running macOS Ventura on Dell Latitude 54
 - [x] Built-in Camera
 - [x] Ethernet
 - [x] Sleep/Wake
+- [x] Backlight Control
 - [x] Type-C Charging (only during sleep)
 
 ## ⚠️ Known Issues
