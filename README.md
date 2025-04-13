@@ -1,13 +1,13 @@
-# Dell Latitude 5400 Hackintosh EFI
+# Dell Latitude 5400 Hackintosh OpenCore EFI
 
-This repository contains EFI files for running macOS Ventura on Dell Latitude 5400. This EFI is provided as-is. Use at your own risk.
+This repository contains OpenCore EFI files for running macOS Ventura on Dell Latitude 5400. This EFI is provided as-is. Use at your own risk.
 
 ## 💻 Hardware Specifications
 
 | Component | Details |
 |-----------|---------|
 | Model | Dell Latitude 5400 |
-| CPU | Intel Core i5-8365U |
+| CPU | Intel Core i5-8365U Whiskey Lake |
 | GPU | Intel UHD Graphics 630 |
 | RAM | 24GB DDR4 2400MHz |
 | Storage | WDC SN520 NVMe 256GB SSD |
@@ -22,6 +22,7 @@ This repository contains EFI files for running macOS Ventura on Dell Latitude 54
 - [x] USB Ports
 - [x] Trackpad with Gestures
 - [x] Built-in Keyboard
+- [x] HDMI
 - [x] Audio (Input/Output)
 - [x] Built-in Camera
 - [x] Ethernet
@@ -31,7 +32,6 @@ This repository contains EFI files for running macOS Ventura on Dell Latitude 54
 
 ## ⚠️ Known Issues
 
-- HDMI hot/cold plug functionality is unreliable
 - Power management requires optimization
 - Type-C charging only works in sleep mode
 
@@ -46,7 +46,6 @@ This repository contains EFI files for running macOS Ventura on Dell Latitude 54
 ### Disable
 - Secure Boot
 - VT-d
-- CFG Lock
 - Fast Boot
 
 ### Enable
