@@ -28,28 +28,15 @@ This repository contains OpenCore EFI files for running macOS Ventura on Dell La
 - [x] Ethernet
 - [x] Sleep/Wake
 - [x] Backlight Control
-- [x] Type-C Charging (only during sleep)
 
 ## ⚠️ Known Issues
 
-- Power management requires optimization
-- Type-C charging only works in sleep mode
+- bluetoothd daemon crash after sleep, (fixable by killing bluetoothd process)
 
 ## ❔ Not Tested
 
 - SIM Card Reader
 - SD Card Reader
-- External displays via Type-C
-
-## ⚙️ BIOS Settings
-
-### Disable
-- Secure Boot
-- VT-d
-- Fast Boot
-
-### Enable
-- AHCI Mode
 
 ## 📝 Post-Installation 
 
