@@ -288,8 +288,6 @@
             </array>
             <key>Quirks</key>
             <dict>
-                <key>EnableForAll</key>
-                <false/>
                 <key>FadtEnableReset</key>
                 <false/>
                 <key>NormalizeHeaders</key>
@@ -325,8 +323,6 @@
                 <key>DisableVariableWrite</key>
                 <false/>
                 <key>DiscardHibernateMap</key>
-                <false/>
-                <key>EnableForAll</key>
                 <false/>
                 <key>EnableSafeModeSlide</key>
                 <true/>
@@ -631,7 +627,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.9 | WhateverGreen.kext</string>
+                    <string>V1.7.0 | WhateverGreen.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -723,7 +719,7 @@
                     <key>Comment</key>
                     <string>V2.3.0 | AirportItlwm.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
@@ -913,6 +909,24 @@
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>itlwm.kext</string>
+                    <key>Comment</key>
+                    <string>V2.3.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/itlwm</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
             </array>
             <key>Block</key>
             <array/>
@@ -1026,8 +1040,6 @@
                 <true/>
                 <key>ShowPicker</key>
                 <true/>
-                <key>SkipCustomEntryCheck</key>
-                <false/>
                 <key>TakeoffDelay</key>
                 <integer>0</integer>
                 <key>Timeout</key>
@@ -1098,7 +1110,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Default</string>
+                <string>Disabled</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -1484,7 +1496,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1 -wegbeta -igfxblt -lilubetaall revpatch=sbvmm igfxonln=1</string>
+                    <string>keepsyms=1 -wegbeta -igfxblt -lilubetaall revpatch=sbvmm igfxonln=1 -lilubetaall</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1549,23 +1561,23 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>FVF032270QX00001H</string>
+                <string>C020365004NP8PG8C</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>ESIzAAAA</data>
+                <data>Zm4l58Y/</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>MacBookPro15,4</string>
+                <string>MacBookPro16,2</string>
                 <key>SystemSerialNumber</key>
-                <string>FVFD6FZHL40Y</string>
+                <string>C02DCAY6ML7H</string>
                 <key>SystemUUID</key>
-                <string>48637A2E-49E0-45F3-BAB9-B3CD561FB286</string>
+                <string>D05D1345-DC8A-4472-9C1D-2B6B015A3FF4</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
