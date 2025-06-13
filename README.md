@@ -1,6 +1,7 @@
 # Dell Latitude 5400 Hackintosh OpenCore EFI
 
-This repository contains OpenCore EFI files for running macOS Ventura on Dell Latitude 5400. This EFI is provided as-is. Use at your own risk.
+This repository contains OpenCore EFI files for running macOS Tahoe and macOS Ventura on Dell Latitude 5400. This EFI is provided as-is. Use at your own risk.
+To use Tahoe Version, get it from releases section, it is labeled as pre-release or use the efi/tahoe-beta-1 branch.
 
 ## 💻 Hardware Specifications
 
